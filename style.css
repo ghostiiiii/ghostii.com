@@ -1,0 +1,21 @@
+@font-face{
+    src:url(fonts/RobotoCondensed-Italic-VariableFont_wght.ttf);
+    font-family: robotocondensed;
+    
+}
+@font-face{
+    src:url(fonts/BungeeSpice-Regular.ttf);
+    font-family:bungeespice
+
+}
+@font-face{
+    src:url(fonts/Barlow-Thin.ttf);
+    font-family:barlow
+
+}
+h1{
+    font-family: bungeespice;
+}
+body{
+    font-family:barlow;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ghostii/log in</title>
+    </head>
+    <body>
+        <form action="index.php" method="post">
+           <label for="username">Username:</label>
+            <input type="username" id="username" placeholder="syhnki" minlength="6" maxlength="15" required>
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="6" maxlength="15" reqired>
+            <br>
+            <lable for="email">email:</lable>
+            <input type="email" id="email" placehold="gfhny4563@gmail.com" required>
+            <br>
+            <lable for="bday">birthdate:</lable>
+            <input type="date" id="bday" required>
+            <br>
+            <lable for="quantity">quantity:</lable>
+            <input type="number" id="quantity" min="0" max="99" value="50">
+            <br>
+            <lable for="payment"> payment:</lable>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="giftcard">giftcard</option>
+                <option value="mastercard"> mastercard</option>
+
+            </select> 
+            <br>
+            <lable for="subscribe"> subscribe:</lable>
+            <input type="checkbox" id="subscribe">
+            <br>
+            <lable for="comment"> comment:
+            </lable>
+            <textarea id="comment" rows="2" cols="50"></textarea>
+            <br>
+            <input type="reset">
+            
+
+            <br>
+            <input type="submit" >
+        </form> 
+    </body>
+</html>
